@@ -1,9 +1,9 @@
 {
-  "name": "react",
+  "name": "next",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/react/src",
+  "sourceRoot": "apps/next",
   "projectType": "application",
   "tags": ["type:app"],
-  "// targets": "to see all targets run: nx show project react --web",
+  "// targets": "to see all targets run: nx show project next --web",
   "targets": {}
 }

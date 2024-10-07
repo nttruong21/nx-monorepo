@@ -7,13 +7,19 @@ import { Button } from '@react-monorepo/shared-ui';
 export function App() {
   return (
     <BrowserRouter>
-      <div style={{ padding: 20, display: 'flex', gap: '16px' }}>
-        <Link to="/">Home</Link>
-        <Link to="/orders">Orders</Link>
-        <Link to="/products">Products</Link>
+      <div className="flex gap-4 p-6 border-b border-gray-300">
+        <Link className="text-xl font-medium hover:underline" to="/">
+          Home
+        </Link>
+        <Link className="text-xl font-medium hover:underline" to="/orders">
+          Orders
+        </Link>
+        <Link className="text-xl font-medium hover:underline" to="/products">
+          Products
+        </Link>
       </div>
 
-      <div style={{ padding: 20 }}>
+      <div className="p-6">
         <Routes>
           <Route
             path="/"
